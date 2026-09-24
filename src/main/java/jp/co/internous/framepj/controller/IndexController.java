@@ -23,10 +23,6 @@ import jp.co.internous.framepj.model.session.LoginSession;
 @Controller
 @RequestMapping("/frameweb")
 public class IndexController {
-	
-	/*
-	 * フィールド定義
-	 */
 	@Autowired
 	private MstProductMapper productMapper;
 	
